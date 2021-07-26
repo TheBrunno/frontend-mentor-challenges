@@ -1,0 +1,78 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  background-color: hsl(0, 0%, 95%);
+}
+
+.card-container{
+  margin-top: 90px;
+  color: hsla(0, 0%, 100%, 0.75);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card{
+  height: 475px;
+  width: 345px;
+  padding: 45px;
+}
+.card p{
+  font-size: 15px;
+  line-height: 27px;
+  font-family: "Lexend Deca", sans-serif;
+}
+.card h2{
+  color: hsl(0, 0%, 95%);
+  text-transform: uppercase;
+  font-family: "Big Shoulders Display", sans-serif;
+  font-size: 35px;
+  margin: 20px 0;
+}
+.card input{
+  display: block;
+  margin: 100px 0 0 0;
+  border: 2px hsl(0, 0%, 95%) solid;
+  background-color: hsl(0, 0%, 95%);
+  height: 50px;
+  width: 150px;
+  border-radius: 24px;
+  font-family: "Lexend Deca", sans-serif;
+  transition: .2s;
+}
+.card input:hover{
+  background-color: transparent;
+  color: hsl(0, 0%, 95%) !important;
+}
+/* card colors */
+#sedans{
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 10px 0 0 10px;
+}
+#suvs{
+  background-color: hsl(184, 100%, 22%);
+}
+#luxury{
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 10px 10px 0;
+}
+/* button font color */
+#sedans input{
+  color: hsl(31, 77%, 52%);
+}
+#suvs input{
+  color: hsl(179, 100%, 13%);
+}
+#luxury input{
+  color: hsl(184, 100%, 22%);
+}
+.attribution {
+  margin: 30px 0 0 0;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

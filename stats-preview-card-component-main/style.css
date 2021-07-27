@@ -1,0 +1,65 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  background-color: hsl(233, 47%, 7%);
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+}
+main{
+  border-radius: 10px;
+  margin: 100px auto 50px auto;
+  width: 1000px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  background-color: hsl(244, 38%, 16%);
+}
+section.content{
+  padding: 60px 70px 0 60px;
+}
+section.content h1{
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+section.content p{
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+  line-height: 25px;
+}
+section.content .characteristics-container{
+  display: flex;
+  margin: 70px 0 60px 0;
+  text-transform: uppercase;
+}
+section.content .characteristics-container span{
+  color: hsla(0, 0%, 100%, 0.6);
+  font-size: 13px;
+  font-family: 'Lexend Deca', sans-serif;
+}
+section.content .characteristics-container .characteristics{
+  margin: 0 25px;
+}
+section.content .characteristics-container div:first-child{
+  margin-left: 0;
+}
+section.image .purple{
+  height: 400px;
+  width: 485px;
+  background-color: hsla(276, 82%, 30%, 0.6);
+  position: absolute;
+  border-radius: 0 10px 10px 0;
+}
+section.image img{
+  height: 400px;
+  border-radius: 0 10px 10px 0;
+}
+.attribution{
+  font-size: 11px; text-align: center;
+}
+.attribution a{
+  color: hsl(228, 45%, 44%);
+}
